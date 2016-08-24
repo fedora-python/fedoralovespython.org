@@ -1,0 +1,16 @@
+language: python
+python:
+- '3.5'
+cache:
+- pip
+script:
+- echo 'No linters, no tests...'
+deploy:
+  provider: script
+  script: python site.py deploy
+  on:
+    branch: master
+    repo: fedora-python/fedoralovespython.org
+env:
+  global:
+    secure: xD+iIZtqKrtOcP7S/7gUW5GLH9nTVJWsSKup3rWq5GCXhgdpPXRXrZBB6XP4XLncV7nagCHyT9uqE4D2NbDpjxJg1YeOYawIhLXxCmMembLehf7cMKzNL+Mg7d5zwVkSQC7rF1R6VzYGQ2Hs8MymroiRjztIz7tX0JrqTja2zoKqTy3d4PU9Ekxk30lObyT62aa/BR87cU+xwPZ8y9Yl4tNybsaN5Z/ied93SfjH9ryZZdIRyomqCueWnPN64RiSS7HAmUZ+JaONKSID5qqWe4LVjAjsRZwxp0q9zNGTvgnMuu6eGPOQx1iDy3ontvph60jLo2BT15sj9fQt7OUeuxkGFGUy7WK/Z8gP3lvy0fZPv/WiGHOlUogiBeYJf7swmh2tOgngwtCkIApyqEmTQE9ktdmMSW4cbGUMs3/OcJUha0h+LTcGOg+RcEARgKuWmecW4GtUjwCnJ9RRJQyzkKBz5e8UDPHLPvDmUNXT8NHaBKTaGK2CmD6oVJMyPQXKBc+ee/sTAzhz3r8X9ylR+JBlJ0c7rygHw7hINgRDAmY2EV2PswEeF93Je9uZYYkZ5HXbQ3HXKQ+KEtNHw4zZfHR/uSSw5OlsUNFkiVzn+iBmnd+e3rJ/Z/A1WS6CgQbQoQXsBizd5qOb3ytP+L8xhVr3JpnusY43a1APi/ZGcPM=
