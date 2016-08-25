@@ -3,6 +3,11 @@
     <title>Fedora Loves Python</title>
   </head>
   <body>
-    <p>Fedora Loves Python</p>
+    <h1>Fedora Loves Python</h1>
+    {% for point in points %}
+      <h2>{{ point.name }}</h2>
+      {{ point.content }}
+      <p><a href="{{ point.link.href }}">{{ point.link.caption }}</a></p>
+    {% endfor %}
   </body>
 </html>
