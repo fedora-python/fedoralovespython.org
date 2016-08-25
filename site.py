@@ -6,7 +6,7 @@ from glob import iglob
 from markdown import markdown
 
 
-app = Flask('naucsepythoncz')
+app = Flask('fedoralovespythoncz')
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
