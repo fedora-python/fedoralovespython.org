@@ -12,6 +12,13 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 @app.route('/')
 def index():
     points = read_yaml('points.yml')
+    points = [p for p in points if p.get('ready', True)]
+    return render_template('index.html', points=points)
+
+
+@app.route('/__future__/')
+def future():
+    points = read_yaml('points.yml')
     return render_template('index.html', points=points)
 
 
