@@ -1,9 +1,76 @@
-- name: Ready to use Python environment
+- name: Example Point
   content: |
-    This is a content of this statement, it uses [markdown](https://pypi.python.org/pypi/Markdown).
-    And can do multiple lines.
+    This is an example of a statement.
+    It uses [markdown] for formatting.
 
-    It can even have empty lines.
+    To create a new point, just copy this one.
+    Once it is ready to be published, remove the `ready: false` line.
+
+    To show points that are not ready, add `__future__/` to the URL.
+
+    [markdown]: https://pypi.python.org/pypi/Markdown
+  link:
+    href: http://example.com
+    caption: Find out more!
+
+- name: Ready to use Python environment
+  ready: false
+  content: |
+    How to put a Python in a computer:
+
+    1. Install Fedora.
+    2. There is no step 2.
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: All the Pythons
+  ready: false
+  content: |
+    We have many varieties of Python in Fedora!
+    Pick one, or test them all!
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: Science Stuff
+  ready: false
+  content: |
+    You can now even multiply matrices, without compiling Fortran yourself!
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: Embedded Stuff
+  ready: false
+  content: |
+    Push Python to all the devices, all from Fedora!
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: Python 3
+  ready: false
+  content: |
+    We are not stuck in the past, oh no!
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: Learn and Teach Python
+  ready: false
+  content: |
+    Make your class focus on mastering the language,
+    not on preparing the environment!
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: Fedorians are also Pythonistas
+  ready: false
+  content: |
+    All Pythons, all the way down. Well, until you get to C.
+  link:
+    href: http://example.com
+    caption: Find out more!
+- name: And more, coming soon...
+  ready: false
+  content: |
+    Here's what we're working on, and how you can help!
   link:
     href: http://example.com
     caption: Find out more!
