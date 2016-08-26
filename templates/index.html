@@ -1,13 +1,31 @@
 <html>
   <head>
     <title>Fedora Loves Python</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic&amp;subset=latin' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <header>
+      <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
+    </header>
     <h1>Fedora Loves Python</h1>
     {% for point in points %}
-      <h2>{{ point.name }}</h2>
-      {{ point.content | markdown }}
-      <p><a href="{{ point.link.href }}">{{ point.link.caption }}</a></p>
+      <section class="point">
+        <div class="point-logo">
+          <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
+        </div>
+        <h2>{{ point.name }}</h2>
+        {{ point.content | markdown }}
+        <p class="link">
+          <a href="{{ point.link.href }}">{{ point.link.caption }}</a>
+        </p>
+      </section>
     {% endfor %}
+    <footer>
+      <p class="disclaimer">
+        This site is not affiliated with either the Fedora project or
+        the Python Software Foundation.
+      </p>
+    </footer>
   </body>
 </html>
