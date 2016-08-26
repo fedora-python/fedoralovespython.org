@@ -1,9 +1,0 @@
-name: Ready to use Python environment
-content: |
-  This is a content of this statement, it uses [markdown](https://pypi.python.org/pypi/Markdown).
-  And can do multiple lines.
-
-  It can even have empty lines.
-link:
-  href: http://example.com
-  caption: Find out more!

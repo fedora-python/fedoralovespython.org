@@ -2,7 +2,6 @@ import jinja2
 import yaml
 from elsa import cli
 from flask import Flask, render_template
-from glob import iglob
 from markdown import markdown
 
 
@@ -12,9 +11,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route('/')
 def index():
-    points = []
-    for yml in sorted(iglob('points/*.yml')):
-        points.append(read_yaml(yml))
+    points = read_yaml('points.yml')
     return render_template('index.html', points=points)
 
 
