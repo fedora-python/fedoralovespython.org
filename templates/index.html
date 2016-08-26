@@ -9,7 +9,8 @@
       <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
     </header>
     <h1>Fedora Loves Python</h1>
-    {% for point in points %}
+    <div class="points">
+      {% for point in points %}
       <section class="point">
         <div class="point-logo">
           <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
@@ -20,7 +21,8 @@
           <a href="{{ point.link.href }}">{{ point.link.caption }}</a>
         </p>
       </section>
-    {% endfor %}
+      {% endfor %}
+    </div>
     <footer>
       <p class="disclaimer">
         This site is not affiliated with either the Fedora project or

@@ -107,6 +107,7 @@ footer {
     color: #e4e6e8;
 }
 
+/* Tiny screens: smaller header, in addition to "max-width : 55em" below */
 @media only screen and (max-width : 22em) {
     h1 {
         font-size: 2rem;
@@ -121,6 +122,7 @@ footer {
     }
 }
 
+/* Small screens: No margins around points; try to header wraps to 2+ lines */
 @media only screen and (max-width : 55em) {
     h1 {
         padding-left: 1rem;
@@ -138,5 +140,20 @@ footer {
     section.point p.link {
         width: auto;
         max-width: 8rem;
+    }
+}
+
+/* Big screens: Points displayed in multiple columns */
+@media only screen and (min-width : 100em) {
+    div.points {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    section.point {
+        flex: 0 0 25rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 }
