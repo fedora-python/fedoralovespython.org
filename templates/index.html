@@ -6,7 +6,7 @@
     <h1>Fedora Loves Python</h1>
     {% for point in points %}
       <h2>{{ point.name }}</h2>
-      {{ point.content }}
+      {{ point.content | markdown }}
       <p><a href="{{ point.link.href }}">{{ point.link.caption }}</a></p>
     {% endfor %}
   </body>

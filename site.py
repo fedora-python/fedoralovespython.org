@@ -27,8 +27,6 @@ def convert_markdown(text):
 def read_yaml(filename):
     with open(filename, encoding='utf-8') as file:
         data = yaml.safe_load(file)
-    if 'content' in data:
-        data['content'] = convert_markdown(data['content'])
     return data
 
 
