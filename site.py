@@ -12,9 +12,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route('/')
 def index():
-    points = []
-    for yml in sorted(iglob('points/*.yml')):
-        points.append(read_yaml(yml))
+    points = read_yaml('points.yml')
     return render_template('index.html', points=points)
 
 
