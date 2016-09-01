@@ -1,3 +1,5 @@
+import textwrap
+
 import jinja2
 import yaml
 from elsa import cli
@@ -24,6 +26,7 @@ def future():
 
 @app.template_filter('markdown')
 def convert_markdown(text):
+    text = textwrap.dedent(text)
     result = jinja2.Markup(markdown(text))
     return result
 
