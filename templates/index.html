@@ -12,9 +12,12 @@
     <div class="points">
       {% for point in points %}
       <section class="point">
+        {% if 'logo' in point %}
         <div class="point-logo">
-          <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
+          <img src="{{ url_for('static',
+                               filename='img/' + point.logo + '.svg') }}">
         </div>
+        {% endif %}
         <h2>{{ point.name }}</h2>
         {{ point.content | markdown }}
         <p class="link">

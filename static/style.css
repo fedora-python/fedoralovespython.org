@@ -66,7 +66,7 @@ h2 {
     font-size: 1.333rem;
     line-height: 2rem;
     padding-bottom: 1rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
     text-align: center;
     text-transform: uppercase;
     background-color: #00578e;
@@ -78,6 +78,9 @@ h2 {
     padding-right: 1rem;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+}
+div.point-logo+h2 {
+    padding-top: 3rem;
 }
 section.point p.link a {
     color: #ffffff;
