@@ -37,6 +37,7 @@
   ready: false
   content: |
     You can now even multiply matrices, without compiling Fortran yourself!
+  logo: science
   link:
     href: http://example.com
     caption: Find out more!
