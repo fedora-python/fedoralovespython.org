@@ -70,6 +70,7 @@
   ready: false
   content: |
     All Pythons, all the way down. Well, until you get to C.
+  logo: infra
   link:
     href: http://example.com
     caption: Find out more!
