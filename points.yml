@@ -29,6 +29,7 @@
   content: |
     We have many varieties of Python in Fedora!
     Pick one, or test them all!
+  logo: implementations
   link:
     href: http://example.com
     caption: Find out more!
