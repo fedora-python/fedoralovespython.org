@@ -5,7 +5,7 @@ from flask import Flask, render_template
 from markdown import markdown
 
 
-app = Flask('fedoralovespythoncz')
+app = Flask('fedoralovespythonorg')
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 
