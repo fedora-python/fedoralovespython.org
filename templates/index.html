@@ -30,7 +30,24 @@
     </div>
     <footer>
       <p class="disclaimer">
-        {{ 'This site is not affiliated with either the Fedora Project or the Python Software Foundation. The content, except for any trademarked logos, or unless otherwise noted is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode) (by members of [Fedora Python SIG](https://fedoraproject.org/wiki/SIGs/Python)). The MicroBit picture is *Copyright &copy; 2016 British Broadcasting Corporation*, licensed under [MIT](https://github.com/lancaster-university/microbit-docs/blob/master/LICENSE). All product names, logos, and brands are property of their respective owners.' | markdown }}
+        {% filter markdown %}
+            This site is not affiliated with either the Fedora Project
+            or the Python Software Foundation.
+
+            The content, except for any trademarked logos or unless otherwise
+            noted, is licensed under [CC BY-SA] (by members of
+            [Fedora Python SIG]).
+
+            The MicroBit picture is *Copyright &copy; 2016 British Broadcasting
+            Corporation*, licensed under [MIT].
+
+            All product names, logos, and brands are property of their
+            respective owners.
+
+            [CC BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+            [Fedora Python SIG]: https://fedoraproject.org/wiki/SIGs/Python
+            [MIT]: https://github.com/lancaster-university/microbit-docs/blob/master/LICENSE.
+        {% endfilter %}
       </p>
     </footer>
   </body>
