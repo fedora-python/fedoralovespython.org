@@ -6,7 +6,8 @@
   </head>
   <body>
     <header>
-      <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}">
+      <img src="{{ url_for('static', filename='img/fedoralovespython.svg') }}"
+           alt="">
     </header>
     <h1>Fedora Loves Python</h1>
     <div class="points">
@@ -15,7 +16,8 @@
         {% if 'logo' in point %}
         <div class="point-logo">
           <img src="{{ url_for('static',
-                               filename='img/' + point.logo + '.svg') }}">
+                               filename='img/' + point.logo + '.svg') }}"
+               alt="">
         </div>
         {% endif %}
         <h2>{{ point.name }}</h2>
