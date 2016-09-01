@@ -45,6 +45,7 @@
   ready: false
   content: |
     Push Python to all the devices, all from Fedora!
+  logo: embedded
   link:
     href: http://example.com
     caption: Find out more!
