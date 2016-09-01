@@ -78,6 +78,7 @@
   ready: false
   content: |
     Here's what we're working on, and how you can help!
+  logo: fedoralovespython
   link:
     href: http://example.com
     caption: Find out more!
