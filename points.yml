@@ -53,6 +53,7 @@
   ready: false
   content: |
     We are not stuck in the past, oh no!
+  logo: python3
   link:
     href: http://example.com
     caption: Find out more!
