@@ -113,6 +113,9 @@ footer {
     color: #e4e6e8;
     font-size: 0.85em;
 }
+footer a {
+    color: #4989bb;
+}
 
 /* Tiny screens: smaller header, in addition to "max-width : 55em" below */
 @media only screen and (max-width : 22em) {
