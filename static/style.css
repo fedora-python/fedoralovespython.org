@@ -105,6 +105,9 @@ section.point p.link a {
 a {
     color: #00578e;
 }
+li {
+    list-style-position: inside;
+}
 footer {
     margin-top: 5rem;
     padding: 1rem;
