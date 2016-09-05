@@ -82,7 +82,11 @@ h2 {
 div.point-logo+h2 {
     padding-top: 3rem;
 }
-section.point p.link a {
+section.point p+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section.point div.link a {
     color: #ffffff;
     text-decoration: none;
     display: block;
