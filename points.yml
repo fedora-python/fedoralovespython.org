@@ -58,13 +58,18 @@
     href: http://example.com
     caption: Find out more!
 - name: Fedorians are also Pythonistas
-  ready: false
   content: |
-    All Pythons, all the way down. Well, until you get to C.
+    Not only Fedora is great for doing Python, important parts of Fedora are
+    actually written in it.
+    Whether it's the Anaconda system installer, the dnf package manager 
+    or the kernel... just kidding, the kernel is not written in Python.
+
+    The majority of Fedora infrastructure, where the distribution is actually
+    being created, runs on Python as well. All Open Source, as we love it.
   logo: infra
   link:
-    href: http://example.com
-    caption: Find out more!
+    href: http://whatcanidoforfedora.org/en#coding#python
+    caption: Get involved?
 - name: And more, coming soon...
   ready: false
   content: |
