@@ -1,18 +1,3 @@
-- name: Example Point
-  content: |
-    This is an example of a statement.
-    It uses [markdown] for formatting.
-
-    To create a new point, just copy this one.
-    Once it is ready to be published, remove the `ready: false` line.
-
-    To show points that are not ready, add `__future__/` to the URL.
-
-    [markdown]: https://pypi.python.org/pypi/Markdown
-  link:
-    href: http://example.com
-    caption: Find out more!
-
 - name: Ready to use Python environment
   ready: false
   content: |
