@@ -29,10 +29,12 @@
 - name: Embedded Stuff
   ready: false
   content: |
-    Push Python to all the devices, all from Fedora!
+      Programming for computers and servers can be fun, but what about controlling much smaller devices such as BBC micro:bit, boards with the ESP8266 chip or pyboard? With Fedora, you have everything you need, and the world of the Internet of things is opened for you.
+
+      Even without the actual device, you can run MicroPython on Fedora to test your code, it's there, ready for you in the repos.
   logo: embedded
   link:
-    href: http://example.com
+    href: https://developer.fedoraproject.org/tech/languages/python/micropython.html
     caption: Find out more!
 - name: Python 3 by default
   content: |
