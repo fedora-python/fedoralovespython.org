@@ -160,8 +160,8 @@ footer a {
     }
 }
 
-/* Big screens: Points displayed in multiple columns */
-@media only screen and (min-width : 100em) {
+/* Giant screens: Points displayed in multiple (3+) columns */
+@media only screen and (min-width : 140em) {
     div.points {
         display: flex;
         flex-wrap: wrap;
