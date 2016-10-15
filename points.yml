@@ -27,7 +27,6 @@
     href: http://example.com
     caption: Find out more!
 - name: Embedded Stuff
-  ready: false
   content: |
     Programming for computers and servers can be fun, but what about controlling much smaller devices such as BBC micro:bit, boards with the ESP8266 chip or pyboard? With Fedora, you have everything you need, and the world of the Internet of things is opened for you.
 
