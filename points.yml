@@ -72,10 +72,19 @@
     href: http://whatcanidoforfedora.org/en#coding#python
     caption: Get involved?
 - name: And more, coming soon...
-  ready: false
   content: |
-    Here's what we're working on, and how you can help!
+    The work is never done!
+    We're Python Special Interest Group,
+    and we're making Fedora an even better system for Python developers,
+    and Python an even better language for Fedora.
+
+    If you'd like to help, check out our [Wiki page] to see what's cooking,
+    then hop on our [mailing list] or [IRC channel] to get in touch.
+
+    [mailing list]: https://lists.fedoraproject.org/archives/list/python-devel@lists.fedoraproject.org/
+    [IRC channel]: https://webchat.freenode.net/?channels=#fedora-python
+    [Wiki page]: https://fedoraproject.org/wiki/SIGs/Python
   logo: fedoralovespython
   link:
-    href: http://example.com
-    caption: Find out more!
+    href: https://fedoraproject.org/wiki/SIGs/Python
+    caption: Join us!
