@@ -10,14 +10,18 @@
     href: http://example.com
     caption: Find out more!
 - name: All the Pythons
-  ready: false
   content: |
-    We have many varieties of Python in Fedora!
-    Pick one, or test them all!
+    Fedora includes a great many versions of Python: CPython in multiple 3.X
+    and 2.X versions, PyPy 2 and 3, Jython and even MicroPython,
+    all available in the repositories.
+    Testing Python code on different interpreters has never been easier.
+
+    You can `sudo dnf install` the Python you need, or do `sudo dnf install tox`
+    to get them all.
   logo: implementations
   link:
-    href: http://example.com
-    caption: Find out more!
+    href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
+    caption: Get them all
 - name: Science Stuff
   ready: false
   content: |
