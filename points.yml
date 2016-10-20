@@ -1,13 +1,11 @@
 - name: Ready to use Python environment
-  ready: false
   content: |
-    How to put a Python in a computer:
-
-    1. Install Fedora.
-    2. There is no step 2.
-  logo: prompt
+    Python 3 comes pre-installed on Fedora. Let's use it!
+    1. Open the _Terminal_.
+    2. Run Python 3 with command `python3`.
+    3. Voilà!
   link:
-    href: http://example.com
+    href: https://developer.fedoraproject.org/tech/languages/python/python-installation.html
     caption: Find out more!
 - name: All the Pythons
   content: |
