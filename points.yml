@@ -1,7 +1,7 @@
 - name: Ready to use Python environment
   ready: false
   content: |
-    How to put a Python in a computer:
+    How to get Python ready for use:
 
     1. Install Fedora.
     2. There is no step 2.
@@ -12,12 +12,12 @@
 - name: All the Pythons
   content: |
     Fedora includes a great many versions of Python: CPython in multiple 3.X
-    and 2.X versions, PyPy 2 and 3, Jython and even MicroPython,
-    all available in the repositories.
+    and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
+    These are all available in the repositories.
     Testing Python code on different interpreters has never been easier.
 
-    You can `sudo dnf install` the Python you need, or do `sudo dnf install tox`
-    to get them all.
+    You can `sudo dnf install` the Python you need, or with `sudo dnf install tox`
+    you can get them all.
   logo: implementations
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
@@ -32,9 +32,9 @@
     caption: Find out more!
 - name: Embedded Stuff
   content: |
-    Programming for computers and servers can be fun, but what about controlling much smaller devices such as BBC micro:bit, boards with the ESP8266 chip or pyboard? With Fedora, you have everything you need, and the world of the Internet of things is opened for you.
+    Programming for computers and servers can be fun, but what about controlling much smaller devices such as the BBC micro:bit, boards with the ESP8266 chip or pyboards? With Fedora, you have everything you need to join the universe that is the Internet of Things.
 
-    Even without the actual device, you can run MicroPython on Fedora to test your code, it's there, ready for you in the repos.
+    Even if you don't have the actual device, you can run MicroPython on Fedora to test your code. It's there and ready for you in the repos.
   logo: embedded
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/micropython.html
@@ -64,12 +64,12 @@
     caption: Find out more!
 - name: Fedorans are also Pythonistas
   content: |
-    Not only Fedora is great for doing Python, important parts of Fedora are
+    Not only is Fedora great for coding in Python, but, important parts of Fedora are
     actually written in it.
-    Whether it's the Anaconda system installer, the DNF package manager 
-    or the kernel... just kidding, the kernel is not written in Python.
+    Python powers the Anaconda system installer, the DNF package manager 
+    and the kernel ... just kidding, the kernel is not written in Python.
 
-    The majority of Fedora infrastructure, where the distribution is actually
+    The majority of Fedora's infrastructure, where the distribution is actually
     being created, runs on Python as well. All Open Source, as we love it.
   logo: infra
   link:
