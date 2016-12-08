@@ -1,8 +1,7 @@
 - name: Ready to use Python environment
   content: |
-    On Fedora, Python comes pre-installed, ready for you to dive in.
-    With first class support for Python virtual environments.
-    Out of the box, no need to guess a magic package name to install to get started.
+    On Fedora, Python comes pre-installed with first class support for Python virtual environments.
+    It is ready for use straight out of the box.  No guessing package names, no installation, just dive in and go.
     Look:
 
         [fedora]$ pyvenv env
@@ -14,13 +13,12 @@
     caption: Get started!
 - name: All the Pythons
   content: |
-    Fedora includes a great many versions of Python: CPython in multiple 3.X
+    Fedora repositories include many versions of Python: CPython in multiple 3.X
     and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
-    These are all available in the repositories.
     Testing Python code on different interpreters has never been easier.
 
     You can `sudo dnf install` the Python you need, or with `sudo dnf install tox`
-    you can get them all.
+    you can install them all.
   logo: implementations
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
@@ -28,9 +26,9 @@
 - name: Science Stuff
   content: |
     There are lot of libraries for scientific computation and visualization
-    available in Fedora. Well known and widely used is SciPy Stack which
+    available in Fedora. The most well known and widely used one is SciPy Stack which
     consists of Python, NumPy, SciPy, matplotlib, IPython, Pandas, SymPy and
-    more... It's easy, no need to compile stuff.
+    more. It's easy, and there is no need to compile stuff.
   logo: science
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
@@ -48,7 +46,7 @@
   content: |
     Fedora helps lead the Python 3 Porting Efforts&trade;.
     Major OS components are already running on Python 3 and more than a half
-    of Python packages in the repos are Python 3 compatible.
+    of the Python packages in the repos are Python 3 compatible.
 
     When you install Fedora Workstation or Cloud, there's no Legacy Python
     installed by default.
@@ -72,7 +70,7 @@
     Not only is Fedora great for coding in Python, but, important parts of Fedora are
     actually written in it.
     Python powers the Anaconda system installer, the DNF package manager 
-    and the kernel ... just kidding, the kernel is not written in Python.
+    and the kernel ... Just kidding, the kernel is not written in Python.
 
     The majority of Fedora's infrastructure, where the distribution is actually
     being created, runs on Python as well. All Open Source, as we love it.
