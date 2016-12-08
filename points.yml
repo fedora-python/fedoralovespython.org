@@ -23,12 +23,11 @@
     href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
     caption: Get them all
 - name: Science Stuff
-  ready: false
   content: |
     You can now even multiply matrices, without compiling Fortran yourself!
   logo: science
   link:
-    href: http://example.com
+    href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
     caption: Find out more!
 - name: Embedded Stuff
   content: |
