@@ -1,14 +1,17 @@
 - name: Ready to use Python environment
-  ready: false
   content: |
-    How to get Python ready for use:
+    On Fedora, Python comes pre-installed, ready for you to dive in.
+    With first class support for Python virtual environments.
+    Out of the box, no need to guess a magic package name to install to get started.
+    Look:
 
-    1. Install Fedora.
-    2. There is no step 2.
+        [fedora]$ pyvenv env
+        [fedora]$ . env/bin/activate
+        (env) [fedora]$ python ...
   logo: prompt
   link:
-    href: http://example.com
-    caption: Find out more!
+    href: https://developer.fedoraproject.org/tech/languages/python/python-installation.html
+    caption: Get started!
 - name: All the Pythons
   content: |
     Fedora includes a great many versions of Python: CPython in multiple 3.X
