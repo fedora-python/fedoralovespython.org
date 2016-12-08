@@ -27,11 +27,14 @@
     caption: Get them all
 - name: Science Stuff
   content: |
-    You can now even multiply matrices, without compiling Fortran yourself!
+    There are lot of libraries for scientific computation and visualization
+    available in Fedora. Well known and widely used is SciPy Stack which
+    consists of Python, NumPy, SciPy, matplotlib, IPython, Pandas, SymPy and
+    more... It's easy, no need to compile stuff.
   logo: science
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
-    caption: Find out more!
+    caption: Science in Python
 - name: Embedded Stuff
   content: |
     Programming for computers and servers can be fun, but what about controlling much smaller devices such as the BBC micro:bit, boards with the ESP8266 chip or pyboards? With Fedora, you have everything you need to join the universe that is the Internet of Things.
