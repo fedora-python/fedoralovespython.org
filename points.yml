@@ -54,7 +54,7 @@
     [PEP 394](https://www.python.org/dev/peps/pep-0394/).
   logo: python3
   link:
-    href: http://portingdb-encukou.rhcloud.com/
+    href: http://fedora.portingdb.xyz/
     caption: See the progress
 - name: Learn and Teach Python
   ready: false
