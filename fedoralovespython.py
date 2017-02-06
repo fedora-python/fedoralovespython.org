@@ -2,7 +2,6 @@ import textwrap
 
 import jinja2
 import yaml
-from elsa import cli
 from flask import Flask, render_template
 from markdown import markdown
 
@@ -36,6 +35,7 @@ def read_yaml(filename):
         data = yaml.safe_load(file)
     return data
 
-
+# to serve with Flask server: FLASK_APP=fedoralovespython.py python3 -m flask run
 if __name__ == '__main__':
+    from elsa import cli
     cli(app, base_url='https://fedoralovespython.org')
