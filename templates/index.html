@@ -22,7 +22,9 @@
         </div>
         {% endif %}
         <h2>{{ point.name }}</h2>
-        {{ point.content | markdown }}
+        <div class="point-content">
+          {{ point.content | markdown }}
+        </div>
         <div class="link">
           <a href="{{ point.link.href }}">{{ point.link.caption }}</a>
         </div>

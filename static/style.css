@@ -48,6 +48,9 @@ section.point {
     padding-right: 1rem;
     padding-bottom: 0;
     position: relative;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
 }
 section.point div.point-logo {
     text-align: center;
@@ -85,6 +88,9 @@ div.point-logo+h2 {
 section.point p+p {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+section.point div.point-content {
+    flex-grow: 1;
 }
 section.point div.link a {
     color: #ffffff;
