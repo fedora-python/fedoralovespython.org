@@ -59,7 +59,7 @@ You can do it by deploying your changes to your fork's GitHub Pages:
 The above command will freeze the site, and commit it frozen to your `gh-pages`
 branch (be careful though because it will rewrite the branch's history).
 Then you can push the branch to your fork on GitHub as you would push the
-branch with your changes.
+branch with your changes, except you might need to use `--force`.
 
 *If you happen to have push permissions to the original `fedora-python`
 repository, never deploy the site from your computer, let the automatic
