@@ -4,10 +4,10 @@ python:
 cache:
 - pip
 script:
-- echo 'No linters, no tests...'
+- python fedoralovespython.py freeze
 deploy:
   provider: script
-  script: python fedoralovespython.py deploy && ./.cloudflare_purge_cache.sh
+  script: python fedoralovespython.py deploy --push && ./.cloudflare_purge_cache.sh
   on:
     branch: master
     repo: fedora-python/fedoralovespython.org
