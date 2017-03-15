@@ -7,7 +7,8 @@ script:
 - python fedoralovespython.py freeze
 deploy:
   provider: script
-  script: python fedoralovespython.py deploy --push && ./.cloudflare_purge_cache.sh
+  skip_cleanup: true
+  script: python fedoralovespython.py deploy --no-freeze --push && ./.cloudflare_purge_cache.sh
   on:
     branch: master
     repo: fedora-python/fedoralovespython.org
