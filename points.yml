@@ -4,7 +4,7 @@
     It is ready for use straight out of the box.  No guessing package names, no installation, just dive in and go.
     Look:
 
-        [fedora]$ pyvenv env
+        [fedora]$ python3 -m venv env
         [fedora]$ . env/bin/activate
         (env) [fedora]$ python ...
   logo: prompt
