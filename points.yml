@@ -27,8 +27,8 @@
   content: |
     There are lot of libraries for scientific computation and visualization
     available in Fedora. The most well known and widely used one is SciPy Stack which
-    consists of Python, NumPy, SciPy, matplotlib, IPython, Pandas, SymPy and
-    more. It's easy, and there is no need to compile stuff.
+    consists of Python, NumPy, SciPy, matplotlib, Jupyter Notebook, IPython, Pandas,
+    SymPy and more. It's easy, and there is no need to compile stuff.
   logo: science
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
