@@ -57,14 +57,14 @@
     href: http://fedora.portingdb.xyz/
     caption: See the progress
 - name: Learn and Teach Python
-  ready: false
   content: |
     Make your class focus on mastering the language,
     not on preparing the environment!
+    Get the Fedora Python Classroom Lab and have your class set up in no time.
   logo: teaching
   link:
-    href: http://example.com
-    caption: Find out more!
+    href: https://labs.fedoraproject.org/python-classroom/
+    caption: Fedora Python Classroom Lab
 - name: Fedorans are also Pythonistas
   content: |
     Not only is Fedora great for coding in Python, but, important parts of Fedora are
