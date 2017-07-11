@@ -92,6 +92,8 @@ Broadcasting Corporation*, licensed under [MIT].
 All product names, logos, and brands are property of their
 respective owners.
 
+The code in this repository is licensed under the terms of the MIT license,
+see the [LICENSE.code] file.
 
 
 [virtual environment]: https://docs.python.org/3/library/venv.html
@@ -105,3 +107,4 @@ respective owners.
 [CC BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 [Fedora Python SIG]: https://fedoraproject.org/wiki/SIGs/Python
 [MIT]: https://github.com/lancaster-university/microbit-docs/blob/master/LICENSE
+[LICENSE.code]: ./LICENSE.code
