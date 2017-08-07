@@ -2,7 +2,7 @@ import textwrap
 
 import jinja2
 import yaml
-from flask import Flask, Response, render_template, jsonify
+from flask import Flask, Response, render_template, jsonify, url_for
 from markdown import markdown
 import ansicolor
 
@@ -14,6 +14,12 @@ def read_points(hide_upcoming=True):
     points = read_yaml('points.yml')
     if hide_upcoming:
         points = [p for p in points if p.get('ready', True)]
+    for point in points:
+        if 'logo' in point:
+            url = url_for('static',
+                          filename='img/' + point['logo'] + '.svg',
+                          _external=True)
+            point['logo_url'] = url
     return points
 
 
