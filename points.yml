@@ -1,8 +1,8 @@
 - name: Ready to use Python environment
   content: |
-    On Fedora, Python comes pre-installed with first class support for Python virtual environments.
-    It is ready for use straight out of the box.  No guessing package names, no installation, just dive in and go.
-    Look:
+    On Fedora, Python comes pre-installed with first class support for Python
+    virtual environments. It is ready for use straight out of the box.
+    No guessing package names, no installation, just dive in and go. Look:
 
         [fedora]$ python3 -m venv env
         [fedora]$ . env/bin/activate
@@ -13,12 +13,12 @@
     caption: Get started!
 - name: All the Pythons
   content: |
-    Fedora repositories include many versions of Python: CPython in multiple 3.X
-    and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
+    Fedora repositories include many versions of Python: CPython in multiple
+    3.X and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
     Testing Python code on different interpreters has never been easier.
 
-    You can `sudo dnf install` the Python you need, or with `sudo dnf install tox`
-    you can install them all.
+    You can `sudo dnf install` the Python you need, or you can install them all
+    with `sudo dnf install tox`.
   logo: implementations
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
@@ -26,25 +26,30 @@
 - name: Science Stuff
   content: |
     There are lot of libraries for scientific computation and visualization
-    available in Fedora. The most well known and widely used one is SciPy Stack which
-    consists of Python, NumPy, SciPy, matplotlib, Jupyter Notebook, IPython, Pandas,
-    SymPy and more. It's easy, and there is no need to compile stuff.
+    available in Fedora. The most well known and widely used one is SciPy Stack
+    which consists of Python, NumPy, SciPy, matplotlib, Jupyter Notebook,
+    IPython, Pandas, SymPy and more.
+    It's easy, and there is no need to compile stuff.
   logo: science
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
     caption: Science in Python
 - name: Embedded Stuff
   content: |
-    Programming for computers and servers can be fun, but what about controlling much smaller devices such as the BBC micro:bit, boards with the ESP8266 chip or pyboards? With Fedora, you have everything you need to join the universe that is the Internet of Things.
+    Programming for computers and servers can be fun, but what about
+    controlling much smaller devices such as the BBC micro:bit, boards with
+    the ESP8266 chip or pyboards? With Fedora, you have everything you need
+    to join the universe that is the Internet of Things.
 
-    Even if you don't have the actual device, you can run MicroPython on Fedora to test your code. It's there and ready for you in the repos.
+    Even if you don't have the actual device, you can run MicroPython on Fedora
+    to test your code. It's there and ready for you in the repos.
   logo: embedded
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/micropython.html
     caption: Find out more!
 - name: Python 3 by default
   content: |
-    Fedora helps lead the Python 3 Porting Efforts&trade;.
+    Fedora helps lead the Python 3 Porting Efforts™.
     Major OS components are already running on Python 3 and more than a half
     of the Python packages in the repos are Python 3 compatible.
 
@@ -58,8 +63,8 @@
     caption: See the progress
 - name: Learn and Teach Python
   content: |
-    Make your class focus on mastering the language,
-    not on preparing the environment!
+    Make your class focus on mastering the language, not on preparing
+    the environment!
     Get the Fedora Python Classroom Lab and have your class set up in no time.
   logo: teaching
   link:
@@ -67,8 +72,8 @@
     caption: Fedora Python Classroom Lab
 - name: Fedorans are also Pythonistas
   content: |
-    Not only is Fedora great for coding in Python, but, important parts of Fedora are
-    actually written in it.
+    Not only is Fedora great for coding in Python, but, important parts of
+    Fedora are actually written in it.
     Python powers the Anaconda system installer, the DNF package manager 
     and the kernel ... Just kidding, the kernel is not written in Python.
 
