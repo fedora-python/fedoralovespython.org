@@ -1,3 +1,4 @@
 elsa>=0.1.2
 markdown
 pyyaml
+ansicolor

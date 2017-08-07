@@ -39,7 +39,8 @@ For local development, you have two options:
 
 * Alternately, with Fedora's system packages:
 
-        sudo dnf install -y python3-flask python3-markdown python3-PyYAML
+        sudo dnf install -y python3-flask python3-markdown python3-PyYAML \
+            python3-ansicolor
         FLASK_APP=fedoralovespython.py python3 -m flask run
 
 The above commands will serve the website locally;

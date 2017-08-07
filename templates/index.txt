@@ -1,0 +1,15 @@
+{{ ('='*15) | apply(colors.blue) }}
+{{ 'FEDORA' | apply(colors.white) }} {{ '♥' | apply(colors.red) }} {{ 'PYTHON' | apply(colors.white) }}
+{{ ('='*15) | apply(colors.blue) }}
+
+{% for point in points %}
+{{ point.name | apply(colors.white) }}
+
+{{ point.content | term_indent }}
+
+    {{ point.link.caption | apply(colors.blue) }} – {{ point.link.href }}
+
+{% endfor %}
+
+{% filter apply(colors.white) %}See http://fedoralovespython.org{% endfilter %}
+
