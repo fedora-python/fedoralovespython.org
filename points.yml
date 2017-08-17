@@ -17,7 +17,7 @@
     3.X and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
     Testing Python code on different interpreters has never been easier.
 
-    You can `sudo dnf install` the Python you need, or you can install them all
+    You can `sudo dnf install` the Python you need, or you can install a bunch of them
     with `sudo dnf install tox`.
   logo: implementations
   link:
