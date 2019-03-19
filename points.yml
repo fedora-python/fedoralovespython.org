@@ -62,6 +62,7 @@
     href: http://fedora.portingdb.xyz/
     caption: See the progress
 - name: Learn and Teach Python
+  ready: false
   content: |
     Make your class focus on mastering the language, not on preparing
     the environment!
