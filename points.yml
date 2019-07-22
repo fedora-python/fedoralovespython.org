@@ -50,13 +50,14 @@
 - name: Python 3 by default
   content: |
     Fedora helps lead the Python 3 Porting Efforts™.
-    Major OS components are already running on Python 3 and more than a half
+    Major OS components are already running on Python 3 and more than 80%
     of the Python packages in the repos are Python 3 compatible.
 
     When you install Fedora Workstation or Cloud, there's no Legacy Python
     installed by default.
-    However, `/usr/bin/python` remains Python 2, as described in
-    [PEP 394](https://www.python.org/dev/peps/pep-0394/).
+
+    Starting with Fedora 31, the `python` command (`/usr/bin/python`) is
+    Python 3.
   logo: python3
   link:
     href: http://fedora.portingdb.xyz/
