@@ -56,7 +56,7 @@
     When you install Fedora Workstation or Cloud, there's no Legacy Python
     installed by default.
 
-    Starting with Fedora 31, the `python` command (/usr/bin/python`) is
+    Starting with Fedora 31, the `python` command (`/usr/bin/python`) is
     Python 3.
   logo: python3
   link:
