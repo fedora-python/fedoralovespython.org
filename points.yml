@@ -53,8 +53,7 @@
     Major OS components are already running on Python 3 and more than 80%
     of the Python packages in the repos are Python 3 compatible.
 
-    When you install Fedora Workstation or Cloud, there's no Legacy Python
-    installed by default.
+    When you install Fedora, there's no Legacy Python installed by default.
 
     Starting with Fedora 31, the `python` command (`/usr/bin/python`) is
     Python 3.
