@@ -75,7 +75,7 @@
     Not only is Fedora great for coding in Python, but, important parts of
     Fedora are actually written in it.
     Python powers the Anaconda system installer, the DNF package manager 
-    and the kernel ... Just kidding, the kernel is not written in Python.
+    and the kernel ... Just kidding, the kernel is not written in Python yet.
 
     The majority of Fedora's infrastructure, where the distribution is actually
     being created, runs on Python as well. All Open Source, as we love it.
