@@ -19,10 +19,10 @@ The website is powered by [Elsa]. That means it is a Flask website that
 produces static HTML pages. Those pages are pushed to [GitHub Pages].
 [Cloudflare] is used for [Let's Encrypt HTTPS].
 
-When you push some changes, the Flask website is frozen by Elsa on [Travis CI].
+When you push some changes, the Flask website is frozen by Elsa via [GitHub Actions].
 When the commit is from the `master` branch, the frozen HTML site is pushed to
 the `gh-pages` branch and the cache is purged on Cloudflare.
-Feel free to explore `.travis.yml` to see how it's done.
+Feel free to explore `.github/workflows/main.yml` to see how it's done.
 
 The content if mainly in the `points.yml` file (as in talking points).
 It's a YAML file with Markdown. `fedoralovespython.py` defines what's done with
@@ -103,7 +103,7 @@ see the [LICENSE.code] file.
 [GitHub Pages]: https://pages.github.com/
 [Cloudflare]: https://www.cloudflare.com/
 [Let's Encrypt HTTPS]: https://letsencrypt.org/
-[Travis CI]: https://travis-ci.org/
+[GitHub Actions]: https://github.com/features/actions
 [fedoralovespython.org]: https://fedoralovespython.org/
 [CC BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 [Fedora Python SIG]: https://fedoraproject.org/wiki/SIGs/Python
