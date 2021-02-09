@@ -39,7 +39,7 @@
   content: |
     Programming for computers and servers can be fun, but what about
     controlling much smaller devices such as the BBC micro:bit, boards with
-    the ESP8266 chip or pyboards? With Fedora, you have everything you need
+    the ESP8266/ESP32 chip or pyboards? With Fedora, you have everything you need
     to join the universe that is the Internet of Things.
 
     Even if you don't have the actual device, you can run MicroPython on Fedora
