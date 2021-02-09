@@ -30,6 +30,7 @@
     which consists of Python, NumPy, SciPy, matplotlib, Jupyter Notebook,
     IPython, Pandas, SymPy and more.
     It's easy, and there is no need to compile stuff.
+    Not even on ARM, Power or s390x.
   logo: science
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/scipy.html
