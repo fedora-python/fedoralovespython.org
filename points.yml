@@ -14,7 +14,7 @@
 - name: All the Pythons
   content: |
     Fedora repositories include many versions of Python: CPython in multiple
-    3.X and 2.X versions, PyPy 2 and 3, Jython and even MicroPython.
+    3.X and 2.X versions, PyPy 2 and 3 and even MicroPython.
     Testing Python code on different interpreters has never been easier.
 
     You can `sudo dnf install` the Python you need, or you can install a bunch of them
