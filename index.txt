@@ -1,0 +1,109 @@
+===============
+FEDORA ♥ PYTHON
+===============
+
+
+Ready to use Python environment
+
+    On Fedora, Python comes pre-installed with first class support for Python
+    virtual environments. It is ready for use straight out of the box.
+    No guessing package names, no installation, just dive in and go. Look:
+    
+        [fedora]$ python3 -m venv env
+        [fedora]$ . env/bin/activate
+        (env) [fedora]$ python ...
+
+    Get started! – https://developer.fedoraproject.org/tech/languages/python/python-installation.html
+
+
+All the Pythons
+
+    Fedora repositories include many versions of Python: CPython in multiple
+    3.X and 2.X versions, PyPy 2 and 3 and even MicroPython.
+    Testing Python code on different interpreters has never been easier.
+    
+    You can `sudo dnf install` the Python you need, or you can install a bunch of them
+    with `sudo dnf install tox`.
+
+    Get them all – https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
+
+
+Science Stuff
+
+    There are lot of libraries for scientific computation and visualization
+    available in Fedora. The most well known and widely used one is SciPy Stack
+    which consists of Python, NumPy, SciPy, matplotlib, Jupyter Notebook,
+    IPython, Pandas, SymPy and more.
+    It's easy, and there is no need to compile stuff.
+    Not even on ARM, Power or s390x.
+
+    Science in Python – https://developer.fedoraproject.org/tech/languages/python/scipy.html
+
+
+Embedded Stuff
+
+    Programming for computers and servers can be fun, but what about
+    controlling much smaller devices such as the BBC micro:bit, boards with
+    the ESP8266/ESP32 chip or pyboards? With Fedora, you have everything you need
+    to join the universe that is the Internet of Things.
+    
+    Even if you don't have the actual device, you can run MicroPython on Fedora
+    to test your code. It's there and ready for you in the repos.
+
+    Find out more! – https://developer.fedoraproject.org/tech/languages/python/micropython.html
+
+
+Python 3 by default
+
+    Fedora helps lead the Python 3 Porting Efforts™.
+    Major OS components are running on Python 3 and more than 99%
+    of the Python packages in the repos are Python 3 compatible.
+    
+    When you install Fedora, there's no Legacy Python installed by default.
+    
+    The `python` command (`/usr/bin/python`) is Python 3.
+
+    See the progress – http://fedora.portingdb.xyz/
+
+
+Learn and Teach Python
+
+    Make your class focus on mastering the language, not on preparing
+    the environment!
+    Get the Fedora Python Classroom Lab and have your class set up in no time.
+
+    Fedora Python Classroom Lab – https://labs.fedoraproject.org/python-classroom/
+
+
+Fedorans are also Pythonistas
+
+    Not only is Fedora great for coding in Python, but, important parts of
+    Fedora are actually written in it.
+    Python powers the Anaconda system installer, the DNF package manager 
+    and the kernel ... Just kidding, the kernel is not written in Python.
+    
+    The majority of Fedora's infrastructure, where the distribution is actually
+    being created, runs on Python as well. All Open Source, as we love it.
+
+    Get involved? – http://whatcanidoforfedora.org/en#coding#python
+
+
+And more, coming soon...
+
+    The work is never done!
+    We're Python Special Interest Group,
+    and we're making Fedora an even better system for Python developers,
+    and Python an even better language for Fedora.
+    
+    If you'd like to help, check out our [Wiki page] to see what's cooking,
+    then hop on our [mailing list] or [IRC channel] to get in touch.
+    
+    [mailing list]: https://lists.fedoraproject.org/archives/list/python-devel@lists.fedoraproject.org/
+    [IRC channel]: https://web.libera.chat/?channels=#fedora-python
+    [Wiki page]: https://fedoraproject.org/wiki/SIGs/Python
+
+    Join us! – https://fedoraproject.org/wiki/SIGs/Python
+
+
+
+See http://fedoralovespython.org
