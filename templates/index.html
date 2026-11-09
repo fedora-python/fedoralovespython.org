@@ -6,6 +6,16 @@
     <link href="{{ url_for('json') }}" rel="alternate" type="application/json">
     <link href="{{ url_for('plaintext') }}" rel="alternate" type="text/plain">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic&amp;subset=latin' rel='stylesheet' type='text/css'>
+    <!-- For Facebook and Twitter: -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Fedora Loves Python – fedoralovespython.org">
+    <meta property="og:description" content="Fedora’s relationship with Python is very close, making it the best platform for developing with Python - learn why!">
+    <meta property="og:url" content="https://fedoralovespython.org/">
+    <meta property="og:image" content="{{ url_for('static', filename='img/fedoralovespython-share.jpg', _external=True) }}">
+    <!-- Additionaly, for Twitter: -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@fedora">
+    <meta property="twitter:creator" content="@fedora" />
   </head>
   <body>
     <header>
