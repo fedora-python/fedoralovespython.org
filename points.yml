@@ -23,6 +23,24 @@
   link:
     href: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
     caption: Get them all
+- name: Patches are Issues
+  ready: false
+  content: |
+    Fedora's Python is well cared for, but it's just Python.
+
+    Modifications are sometimes necessary to integrate Python in Fedora.
+    But if that modification is a good idea, we don't want to keep it
+    to ourselves! It needs to be made a part of Python itself, so everyone
+    else can benefit.<br>
+    Only discussions across the wider Python community can decide if
+    a change is really awesome, or if should be made optional or rejected
+    altogether.
+
+    In short, each Fedora-specific feature means work that is not yet finished.
+  logo: patchesissues
+  link:
+    href: https://src.fedoraproject.org/rpms/python3.9/tree/master
+    caption: Count the patches
 - name: Science Stuff
   content: |
     There are lot of libraries for scientific computation and visualization
