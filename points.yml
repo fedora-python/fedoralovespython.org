@@ -50,8 +50,8 @@
     caption: Find out more!
 - name: Python 3 by default
   content: |
-    Fedora helps lead the Python 3 Porting Efforts™.
-    Major OS components are running on Python 3 and more than 99%
+    Fedora helped to lead the Python 3 Porting Efforts™.
+    Major OS components are running on Python 3 and 100%
     of the Python packages in the repos are Python 3 compatible.
 
     When you install Fedora, there's no Legacy Python installed by default.
